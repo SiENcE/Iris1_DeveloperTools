@@ -1,0 +1,79 @@
+Iris1 DeveloperTools, Copyright (C) 2003 - 2006 Iris Team
+______________________________________________
+
+
+Iris1 DeveloperTools for the Iris1 3D Client.
+
+For Bugreports, suggestions, comments, please visit:
+
+	https://github.com/SiENcE/Iris1_DeveloperTools
+
+
+Iris comes with ABSOLUTELY NO WARRANTY; This is free software, and you are welcome to redistribute it under certain conditions.
+Take a look into License.txt for details.
+
+Contact:
+________
+	SiENcE: seabeams@gmx.de	      /	icq: 11516096
+	Tensor:	tensor@ultima-iris.de / icq: 25173236
+	Ar-Tix:				icq: 164112923
+	Thorgrim:			icq: 110406502
+	[G]angster:			icq: 92852852
+
+
+Credits:
+________
+Core Team:
+	Tensor -	Alexander Oster
+			Main Coder (3d Engine)
+			Location: Germany (Regensburg)
+			Website: http://www.ultima-iris.de
+
+	SiENcE -	Florian Fischer
+			Projectmanager and Coder
+			Location: Germany (Berlin)
+			Website: http://www.seabeams.de
+
+	Artix - 	Fabio Nicotra
+			Coder and Creative Ideas
+			Location: Italy (Sicily)
+
+	Thorgrim -	Matt Stentiford
+			Main 3d Artist and Scripter
+			Location: Australia
+			Website: http://thorgrim.sytes.net
+
+	TheGangster - 	Nuno Ramiro
+			Coder
+			Location: Portugal (Lisbon)
+
+	Harkon -	Seung Yong, Choi
+			Coder
+			Location: Korea
+
+other contributors:
+___________________
+Programming:
+	Darkstorm, Harkon, Blobba, Soulburner, Gigi
+	netzzwerg, x.diablo, tharsade
+
+3D-design:
+	Stygius, Alamar
+
+other:
+	Zeus, Scull, Emrysk, DC, Horian, Doc, Hitman
+
+Thanks:
+_______
+	Imion, Johwood, Luckyluke, Winterbreeze, Psy, Phlegyas
+
+
+Libraries:
+__________
+Granny Loader - http://uop.sourceforge.net	( /Granny/grn* )
+Huffman encryption - http://injection.sourceforge.net	( /net/unicode /net/uo_huffman )
+SDL, SDL_ttf, SDL_mixer, SDL_net, SDL_image - http://www.libsdl.org	( libs/sdl )
+
+
+Copyright (©) 2003-2006 Iris Team
+
