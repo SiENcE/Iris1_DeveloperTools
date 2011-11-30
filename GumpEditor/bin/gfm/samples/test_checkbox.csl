@@ -1,0 +1,25 @@
+button_okay_onclick(var sender)
+{
+	var btn_music, btn_effect;
+	var music, effect;
+
+	btn_music = control_getid("button_music");
+	music = button_getchecked(btn_music);
+
+	btn_effect = control_getid("button_effect");
+	effect = button_getchecked(btn_effect);
+	
+	log("music : " + music);
+	log("effect : " + effect);
+}
+
+button_default_onclick(var sender)
+{
+	var btn_music, btn_effect;
+	
+	btn_music = control_getid("button_music");
+	button_setchecked(btn_music,0);
+
+	btn_effect = control_getid("button_effect");
+	button_setchecked(btn_effect,0);
+}

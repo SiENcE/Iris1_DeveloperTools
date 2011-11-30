@@ -1,0 +1,23 @@
+Hello. This is my first shot at building a font. I found a Celtic typestyle in
+a book of Celtic art and scanned it. Then I imported it into Corel 3.0 and cleaned
+it up to export as a .PFB. It is primarily a drop-cap style and so with out lower-
+case letters it appeared quite ineffectual, so, I took the lower case from Celtic,
+the .PFB, with FontMonger v 1.07, and incorporated those. I then fudged several keys
+into forming the rest of typeface; and VOILA!, CelticMD was created. I have a strong
+interest in my Celtic heritage and will be using this font in a national newsletter
+relating to Celtic and Scottish history and clann events.
+
+Due to the detail in the drop-caps, I highly recommend employing the caps at 36pts
+and greater.
+
+I hope you enjoy CelticMD.
+
+No warranty, guarantee, right infringement, or other legal offensive insinuation
+is implied, inferred, hinted at, or otherwise is intended. No copyright is known
+at this time. 
+
+Mark Davis
+Endless Productions
+Rt 2 Box 285
+Peru, IN 46970
+

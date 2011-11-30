@@ -1,0 +1,12 @@
+#:main_menu.gfm:label
+msgid "- Login in to Iris -"
+msgstr "- Iris 에 로그인 -"
+
+#:main_menu.gfm:label
+msgid "Password:"
+msgstr "비밀번호:"
+
+#:main_menu.gfm:label
+msgid "Login:"
+msgstr "로그인:"
+

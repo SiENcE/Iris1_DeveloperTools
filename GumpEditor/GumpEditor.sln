@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GumpEditor", "GumpEditor.vcproj", "{3D4C5AD1-F0AE-4E0D-9B1A-3BC5D7B2CD7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDib", "E:\project\Lib\TDib\TDib.vcproj", "{E861D6C8-5DA8-47D9-B82F-DCA1C1BD8E4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D4C5AD1-F0AE-4E0D-9B1A-3BC5D7B2CD7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D4C5AD1-F0AE-4E0D-9B1A-3BC5D7B2CD7F}.Debug|Win32.Build.0 = Debug|Win32
+		{3D4C5AD1-F0AE-4E0D-9B1A-3BC5D7B2CD7F}.Release|Win32.ActiveCfg = Release|Win32
+		{3D4C5AD1-F0AE-4E0D-9B1A-3BC5D7B2CD7F}.Release|Win32.Build.0 = Release|Win32
+		{E861D6C8-5DA8-47D9-B82F-DCA1C1BD8E4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E861D6C8-5DA8-47D9-B82F-DCA1C1BD8E4A}.Debug|Win32.Build.0 = Debug|Win32
+		{E861D6C8-5DA8-47D9-B82F-DCA1C1BD8E4A}.Release|Win32.ActiveCfg = Release|Win32
+		{E861D6C8-5DA8-47D9-B82F-DCA1C1BD8E4A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+<!--
+	Ultima Iris Configuration File
+-->
+<CONFIG>
+	<FONTSET>
+		<FONT FILE="fonts/font7.ttf" HUE="946" ID="0" NAME="Calligrapher" SIZE="18"></FONT>
+		<FONT FILE="fonts/font3.ttf" HUE="946" ID="1" NAME="Eire" SIZE="13"></FONT>
+		<FONT FILE="fonts/font3.ttf" HUE="946" ID="2" NAME="Eire" SIZE="16"></FONT>
+		<FONT FILE="fonts/font1.ttf" HUE="946" ID="3" NAME="Bunchlo" SIZE="15"></FONT>
+		<FONT FILE="fonts/font5.ttf" HUE="946" ID="4" NAME="Stonehenge" SIZE="16"></FONT>
+		<FONT FILE="fonts/font5.ttf" HUE="946" ID="5" NAME="Stonehenge" SIZE="15"></FONT>
+		<FONT FILE="fonts/font6.ttf" HUE="946" ID="6" NAME="Tuamach" SIZE="14"></FONT>
+		<FONT FILE="fonts/font7.ttf" HUE="946" ID="7" NAME="Calligrapher" SIZE="13"></FONT>
+		<FONT FILE="fonts/font8.ttf" HUE="946" ID="8" NAME="Carolingia" SIZE="19"></FONT>
+		<FONT FILE="fonts/font4.ttf" HUE="946" ID="9" NAME="RUNEnglish 2" SIZE="13"></FONT>
+		<FONT FILE="fonts/font2.ttf" HUE="946" ID="10" NAME="Celticmd" SIZE="13"></FONT>
+	</FONTSET>
+
+    	<UO>
+		<MULPATH>F:\UO_AoS\</MULPATH>
+		<AOS>1</AOS>
+	</UO>
+</CONFIG>

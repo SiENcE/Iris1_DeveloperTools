@@ -1,0 +1,9 @@
+#: E:\!33\Editor_bin\gfm\samples\test_loadform2.csl:3
+msgid "form2_onload()"
+msgstr ""
+
+#: E:\!33\Editor_bin\gfm\samples\test_loadform2.csl:10
+msgid "gfm/samples/test_loadform.gfm"
+msgstr ""
+
+

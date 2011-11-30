@@ -1,0 +1,31 @@
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:9
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:39
+msgid "scroll1: "
+msgstr ""
+
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:14
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:41
+msgid "scroll2: "
+msgstr ""
+
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:21
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:33
+msgid "scrollbar_1"
+msgstr ""
+
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:22
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:34
+msgid "scrollbar_2"
+msgstr ""
+
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:4
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:37
+msgid "slider1: "
+msgstr ""
+
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:20
+#: E:\!33\Editor_bin_neu\gfm\samples\test_scroll.csl:32
+msgid "slider_1"
+msgstr ""
+
+

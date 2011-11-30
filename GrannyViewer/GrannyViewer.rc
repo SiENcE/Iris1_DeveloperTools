@@ -1,0 +1,559 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\GrannyViewer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\icon1.ico"
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GrannyViewer.ico"
+IDR_GrannyViewerTYPE    ICON                    "res\\GrannyViewerDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETUP_DIALOG DIALOGEX 0, 0, 206, 106
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Setup"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "&text chunk",IDC_TEXT_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,21,50,10
+    CONTROL         "&mesh",IDC_MESH_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,38,33,10
+    CONTROL         "&object",IDC_OBJECT_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,56,36,10
+    CONTROL         "bo&ne object",IDC_BONEOBJ_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,71,21,54,10
+    CONTROL         "bone object &ptr",IDC_OBJPTR_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,71,39,65,10
+    CONTROL         "&bone",IDC_BONE_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,72,57,32,10
+    CONTROL         "bone &anim",IDC_BONEANIM_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,149,22,49,10
+    DEFPUSHBUTTON   "OK",IDOK,47,85,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,85,50,14
+    GROUPBOX        "Log",IDC_STATIC,7,7,192,65
+END
+
+IDD_ANISETUP_DIALOG DIALOGEX 0, 0, 250, 45
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Animation Speed"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,206,7,36,14
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,33,7,127,28
+    LTEXT           "Fast",IDC_STATIC,7,10,15,8
+    LTEXT           "Slow",IDC_STATIC,173,10,16,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 267, 86
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Iris GrannyViewer"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,20,20
+    LTEXT           "Iris GrannyViewer Version 0.4.0",IDC_STATIC,38,8,161,8,
+                    SS_NOPREFIX
+    CONTROL         "Mouse LButton: Rotate, MButton: Move, RButton/Wheel: Zoom",
+                    IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,44,54,
+                    214,12
+    DEFPUSHBUTTON   "OK",IDOK,220,7,40,12,WS_GROUP
+    LTEXT           "Usage",IDC_STATIC,37,41,24,8,SS_NOPREFIX
+    LTEXT           "http://ultimairis.sf.net, http://ultimairis.kldp.net",
+                    IDC_STATIC,42,20,161,8,SS_NOPREFIX
+    CONTROL         "grnview.exe [granny_file]",IDC_STATIC,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,44,65,214,12
+    LTEXT           "harkon.kr@gmail.com",IDC_STATIC,42,30,176,8,SS_NOPREFIX
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SETUP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_ANISETUP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_EXPORTMODEL
+    BUTTON      ID_FILE_SHELLOPEN
+    SEPARATOR
+    BUTTON      ID_FILE_DUMPMODEL
+    BUTTON      ID_FILE_CLEARLOG
+    SEPARATOR
+    BUTTON      ID_RENDER_SCALE_PLUS
+    BUTTON      ID_RENDER_SCALE_MINUS
+    SEPARATOR
+    BUTTON      ID_MODEL_COLOR
+    SEPARATOR
+    BUTTON      ID_MODEL_STARTANIMATION
+    BUTTON      ID_MODEL_PAUSEANIMATION
+    BUTTON      ID_MODEL_STOPANIMATION
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       ID_FILE_OPEN
+        MENUITEM "&Reload\tCtrl+R",             ID_FILE_RELOAD
+        MENUITEM "&View Xml",                   ID_FILE_VIEWXML
+        MENUITEM "&Export Model",               ID_FILE_EXPORTMODEL
+        MENUITEM "&Dump Model",                 ID_FILE_DUMPMODEL
+        MENUITEM "&Shell Open",                 ID_FILE_SHELLOPEN
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Render"
+    BEGIN
+        POPUP "&Polygon"
+        BEGIN
+            MENUITEM "&Point",                      ID_POLYGON_POINT
+            MENUITEM "&Line",                       ID_POLYGON_LINE
+            MENUITEM "&Fill",                       ID_POLYGON_FILL
+        END
+        MENUITEM "&Texture",                    ID_RENDER_TEXTURE
+        MENUITEM "&Bone",                       ID_RENDER_BONE
+        MENUITEM "Bone &Name",                  ID_RENDER_BONENAME
+        POPUP "Scale"
+        BEGIN
+            MENUITEM "Scale x10",                   ID_RENDER_SCALE_PLUS
+            MENUITEM "Scale x1/10",                 ID_RENDER_SCALE_MINUS
+        END
+        MENUITEM "Bound Bo&x",                  ID_RENDER_BOUNDBOX
+        MENUITEM "Background Color",            ID_RENDER_BACKGROUNDCOLOR
+        MENUITEM "A&xis",                       ID_RENDER_AXIS
+    END
+    POPUP "&Model"
+    BEGIN
+        MENUITEM "Clear",                       ID_MODEL_CLEARMODEL
+        MENUITEM "Clear Registered",            ID_MODEL_CLEARREGISTERED
+        MENUITEM "&Clear All",                  ID_MODEL_CLEARALL
+        MENUITEM SEPARATOR
+        MENUITEM "Set &Color",                  ID_MODEL_COLOR
+        MENUITEM "&Reset Color",                ID_MODEL_RESETCOLOR
+        MENUITEM SEPARATOR
+        MENUITEM "&Play Animation",             ID_MODEL_STARTANIMATION
+        MENUITEM "Pause &Animation",            ID_MODEL_STOPANIMATION
+        MENUITEM "&Stop Animation",             ID_MODEL_PAUSEANIMATION
+        MENUITEM "Set Animation Speed...",      ID_RENDER_ANIMATIONSPEED
+    END
+    POPUP "&Log"
+    BEGIN
+        MENUITEM "&Clear Log",                  ID_FILE_CLEARLOG
+        MENUITEM "Set Font",                    ID_LOG_SETFONT
+        MENUITEM SEPARATOR
+        MENUITEM "Log Level &1",                ID_LOG_LOGLEVEL1
+        MENUITEM "Log Level &2",                ID_LOG_LOGLEVEL2
+        MENUITEM "Log Level &3",                ID_LOG_LOGLEVEL3
+        MENUITEM "Log Level &4",                ID_LOG_LOGLEVEL4
+        MENUITEM SEPARATOR
+        MENUITEM "Setup Log...",                ID_LOG_SETUPLOG
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About GrannyViewer...",      ID_APP_ABOUT
+    END
+END
+
+IDM_POPUP_MENU MENU 
+BEGIN
+    POPUP "MODEL"
+    BEGIN
+        MENUITEM "Register Model",              ID_MODEL_REGISTERMODEL
+        MENUITEM "Unregister Model",            ID_MODEL_UNREGISTERMODEL
+        MENUITEM "Clear Model",                 ID_MODEL_CLEARMODEL
+        MENUITEM "Set Model Color",             ID_MODEL_COLOR
+        MENUITEM "Reset Model Color",           ID_MODEL_RESETCOLOR
+        MENUITEM SEPARATOR
+        MENUITEM "Clear Registered Models",     ID_MODEL_CLEARREGISTERED
+        MENUITEM "Clear All Models",            ID_MODEL_CLEARALL
+    END
+    POPUP "LIST"
+    BEGIN
+        MENUITEM "Unregister Model",            ID_LIST_UNREGISTERMODEL
+        MENUITEM "Clear Registered Models",     ID_MODEL_CLEARREGISTERED
+        MENUITEM SEPARATOR
+        MENUITEM "Hide Model",                  ID_LIST_HIDEMODEL
+        MENUITEM "Unhide Model",                ID_LIST_UNHIDEMODEL
+        MENUITEM "Hide All Models",             ID_LIST_HIDEALLMODELS
+        MENUITEM "Unhide All Models",           ID_LIST_UNHIDEALLMODEL
+        MENUITEM SEPARATOR
+        MENUITEM "Set Model Color",             ID_LIST_SETCOLOR
+        MENUITEM "Reset Model Color",           ID_LIST_RESETCOLOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "R",            ID_FILE_RELOAD,         VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,4,0,0
+ PRODUCTVERSION 0,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "harkon"
+            VALUE "FileDescription", "Iris Granny Viewer"
+            VALUE "FileVersion", "0, 4, 0, 0"
+            VALUE "InternalName", "grnview.exe"
+            VALUE "LegalCopyright", "GPL"
+            VALUE "OriginalFilename", "grnview.exe"
+            VALUE "ProductName", "Iris Granny Viewer"
+            VALUE "ProductVersion", "0, 4, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "GrannyViewer\n\nGrannyViewer\n\n\nGrannyViewer.Document\nGrannyViewer.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "GrannyViewer"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_CLEARLOG        "Clear Log Window.\nClear Log"
+    ID_FILE_EXPORTMODEL     "Export Model\nExport"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_RENDER_SCALE_PLUS    "Scale +\nScale +"
+    ID_RENDER_SCALE_MINUS   "Scale -\nScale -"
+    ID_FILE_DUMPMODEL       "Dump Log\nDump Log"
+    ID_FILE_SHELLOPEN       "Shell Open\nShell Open"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MODEL_STARTANIMATION "Play Animation\nPlay"
+    ID_MODEL_STOPANIMATION  "Stop Animation\nStop"
+    ID_MODEL_PAUSEANIMATION "Pause Animation\nPause"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MODEL_COLOR          "Set Model Color\nColor"
+END
+
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\GrannyViewer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,37 @@
+<!--
+	Ultima Iris Configuration File
+-->
+<CONFIG>
+	<!-- Second Fontset ... remove 1 to enable -->
+	<FONTSET1>
+	    <FONT ID="0" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="18" HUE="946"/>
+	    <FONT ID="1" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="13" HUE="946"/>
+	    <FONT ID="2" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="16" HUE="946"/>
+	    <FONT ID="3" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="15" HUE="946"/>
+	    <FONT ID="4" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="16" HUE="946"/>
+	    <FONT ID="5" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="15" HUE="946"/>
+	    <FONT ID="6" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="14" HUE="946"/>
+	    <FONT ID="7" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="13" HUE="946"/>
+	    <FONT ID="8" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="19" HUE="946"/>
+	    <FONT ID="9" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="13" HUE="946"/>
+	    <FONT ID="10" FILE="fonts/font19.ttf" NAME="克崔基" SIZE="13" HUE="946"/>
+	</FONTSET1>
+
+	<FONTSET>
+		<FONT ID="0" FILE="fonts/font7.ttf"   NAME="Calligrapher"	SIZE="18" HUE="946"/>
+		<FONT ID="1" FILE="fonts/font3.ttf"   NAME="Eire"		SIZE="13" HUE="946"/>
+		<FONT ID="2" FILE="fonts/font3.ttf"   NAME="Eire"		SIZE="16" HUE="946"/>
+		<FONT ID="3" FILE="fonts/font1.ttf"   NAME="Bunchlo"		SIZE="15" HUE="946"/>
+		<FONT ID="4" FILE="fonts/font5.ttf"   NAME="Stonehenge"		SIZE="16" HUE="946"/>
+		<FONT ID="5" FILE="fonts/font5.ttf"   NAME="Stonehenge"		SIZE="15" HUE="946"/>
+		<FONT ID="6" FILE="fonts/font6.ttf"   NAME="Tuamach"		SIZE="14" HUE="946"/>
+		<FONT ID="7" FILE="fonts/font7.ttf"   NAME="Calligrapher"	SIZE="13" HUE="946"/>
+		<FONT ID="8" FILE="fonts/font8.ttf"   NAME="Carolingia"		SIZE="19" HUE="946"/>
+		<FONT ID="9" FILE="fonts/font4.ttf"   NAME="RUNEnglish 2"	SIZE="13" HUE="946"/>
+		<FONT ID="10" FILE="fonts/font2.ttf"  NAME="Celticmd"		SIZE="13" HUE="946"/>
+	</FONTSET>
+    	<UO>
+		<MULPATH>E:\UO3D\</MULPATH>
+		<AOS>1</AOS>
+	</UO>
+</CONFIG>

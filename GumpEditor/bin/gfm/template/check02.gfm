@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='button' name='button_868' left='8' top='8' width='29' height='29' alpha='0' flags='0x0'>
+ <meta selected='1' freezed='0' visible='1'/>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0x868' over='0x86A' pressed='0x869'/> <button type='checkbox' checked='0' grouped='0'/>
+</control>
+</form>

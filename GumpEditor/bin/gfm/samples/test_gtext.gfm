@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='border' name='border_bb8' left='185' top='36' width='249' height='38' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='1' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xBB8'/>
+</control>
+<control class='label' name='password' left='37' top='93' width='137' height='27' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0xED' align='left' multiline='0'>Password:</text>
+</control>
+<control class='label' name='login' left='38' top='47' width='137' height='27' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0xED' align='left' multiline='0'>Login:</text>
+</control>
+<control class='edit' name='edit_1' left='190' top='43' width='237' height='29' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='5' hue='0x1' align='left' multiline='0'>Login:</text>
+ <password>0</password>
+</control>
+</form>

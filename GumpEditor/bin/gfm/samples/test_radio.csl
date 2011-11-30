@@ -1,0 +1,35 @@
+onload()
+{
+	log("load()");
+}
+
+button_okay_onclick(var sender)
+{
+	var btn_color, btn_race;
+	var color, race;
+
+	btn_color = control_getid("button_color0");
+	color = button_getradioindex(btn_color);
+
+	btn_race = control_getid("button_race0");
+	race  = button_getradioindex(btn_race);
+	
+	log("color : " + color);
+	log("race  : " + race);
+}
+
+button_default_onclick(var sender)
+{
+	var btn_color, btn_race;
+	
+	btn_color = control_getid("button_color0");
+	button_setradioindex(btn_color, 0);
+
+	btn_race = control_getid("button_race0");
+	button_setradioindex(btn_race, 0);
+}
+
+button_race0_onclick(var sender)
+{
+
+}

@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='border' name='border_a28' left='20' top='21' width='361' height='399' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='1' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xA28'/>
+</control>
+<control class='border' name='border_bb8' left='80' top='182' width='249' height='172' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='1' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xBB8'/>
+</control>
+<control class='border' name='border_bb8' left='78' top='48' width='249' height='132' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='1' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xBB8'/>
+</control>
+<control class='button' name='button_color0' left='117' top='87' width='109' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x4AA' align='left' multiline='0'>red</text>
+ <gump normal='0xD0' over='0xD0' pressed='0xD1'/> <button type='radio' checked='1' grouped='1'/>
+</control>
+<control class='button' name='button_color1' left='117' top='115' width='109' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x4F4' align='left' multiline='0'>green</text>
+ <gump normal='0xD0' over='0xD0' pressed='0xD1'/> <button type='radio' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_color2' left='117' top='145' width='109' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x6C' align='left' multiline='0'>blue</text>
+ <gump normal='0xD0' over='0xD0' pressed='0xD1'/> <button type='radio' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_race0' left='117' top='215' width='109' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>button_race0_onclick</event>
+ <text font='3' hue='0x1' align='left' multiline='0'>human</text>
+ <gump normal='0xD0' over='0xD0' pressed='0xD1'/> <button type='radio' checked='1' grouped='1'/>
+</control>
+<control class='button' name='button_race1' left='117' top='251' width='109' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x1' align='left' multiline='0'>orc</text>
+ <gump normal='0xD0' over='0xD0' pressed='0xD1'/> <button type='radio' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_race2' left='117' top='282' width='109' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x1' align='left' multiline='0'>undead</text>
+ <gump normal='0xD0' over='0xD0' pressed='0xD1'/> <button type='radio' checked='0' grouped='0'/>
+</control>
+<control class='label' name='label' left='91' top='53' width='120' height='29' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x489' align='left' multiline='0'>select color</text>
+</control>
+<control class='label' name='label' left='92' top='186' width='150' height='26' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x489' align='left' multiline='0'>race</text>
+</control>
+<control class='button' name='button_race3' left='118' top='319' width='109' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x1' align='left' multiline='0'>night elf</text>
+ <gump normal='0xD0' over='0xD0' pressed='0xD1'/> <button type='radio' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_okay' left='222' top='370' width='63' height='23' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>button_okay_onclick</event>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0xF7' over='0xF9' pressed='0xF8'/> <button type='button' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_default' left='127' top='370' width='63' height='23' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>button_default_onclick</event>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0xF4' over='0xF4' pressed='0xF5'/> <button type='button' checked='0' grouped='0'/>
+</control>
+</form>

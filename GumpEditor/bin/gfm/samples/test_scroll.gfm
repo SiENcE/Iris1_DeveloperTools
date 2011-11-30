@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='scrollbar' name='slider_1' left='36' top='45' width='125' height='14' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onchange'>slider_1_onchange</event>
+ <gump>
+  <body track='0xD6' thumb='0xD8'/>  <ltup normal='0xD6' over='0xD6' pressed='0xD6'/>  <rtdn normal='0xD6' over='0xD6' pressed='0xD6'/> </gump>
+ <range min='0' max='100' pos='0'/> <option arrow='0' vert='0'/>
+</control>
+<control class='scrollbar' name='scrollbar_1' left='47' top='83' width='15' height='132' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onchange'>scrollbar_1_onchange</event>
+ <gump>
+  <body track='0xFF' thumb='0xFE'/>  <ltup normal='0xFA' over='0xFA' pressed='0xFB'/>  <rtdn normal='0xFD' over='0xFD' pressed='0xFC'/> </gump>
+ <range min='0' max='100' pos='0'/> <option arrow='1' vert='1'/>
+</control>
+<control class='scrollbar' name='scrollbar_2' left='118' top='82' width='15' height='132' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onchange'>scrollbar_2_onchange</event>
+ <gump>
+  <body track='0xFF' thumb='0xFE'/>  <ltup normal='0xFA' over='0xFA' pressed='0xFD'/>  <rtdn normal='0xFD' over='0xFD' pressed='0xFD'/> </gump>
+ <range min='0' max='100' pos='0'/> <option arrow='1' vert='1'/>
+</control>
+<control class='button' name='button_default' left='261' top='98' width='63' height='23' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>button_default_onclick</event>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0xF6' over='0xF5' pressed='0xF6'/> <button type='button' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_okay' left='264' top='144' width='63' height='23' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>button_okay_onclick</event>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0xF9' over='0xF7' pressed='0xF8'/> <button type='button' checked='0' grouped='0'/>
+</control>
+</form>

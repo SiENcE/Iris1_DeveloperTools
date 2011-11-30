@@ -1,0 +1,70 @@
+<CONFIG>
+
+    <UO>
+
+		<!-- Your UO Path -->
+
+		<MULPATH>F:\UO_AoS\</MULPATH>
+
+
+
+		<!-- Rendering Area -->
+
+		<MINX>350</MINX>
+
+		<MINY>200</MINY>
+
+		<MAXX>500</MAXX>
+
+		<MAXY>400</MAXY>
+
+
+
+		<!-- Output File (Windows Bitmap) -->
+
+ 		<OUTPUT>output.bmp</OUTPUT>
+
+
+
+		<!-- Worldfile Patch (_not_ an emu worldfile) -->
+
+		<PATCHES>worldfile.dif</PATCHES>
+
+
+
+		<!-- Detail level: 0 = best, be careful with this! ;) -->
+
+		<DETAIL>2</DETAIL>
+
+
+
+		<!-- choose Map Numer --> 
+
+		<!-- 0 - Trammel --> 
+
+		<!-- 1 - Felucca --> 
+
+		<!-- 2 - Ilshenar --> 
+
+		<!-- 3 - Malas -->
+
+		<!-- 4 - Tokuno -->
+
+		<MAP_NUMBER>3</MAP_NUMBER>
+
+
+
+		<!-- Cache sizes: lower = less memory usage, more cpu usage -->
+
+		<CACHE_ART>5000</CACHE_ART>
+
+		<CACHE_TEXTURE>3000</CACHE_TEXTURE>
+
+		<CACHE_GROUND>3000</CACHE_GROUND>
+
+		<CACHE_BLOCK>10000</CACHE_BLOCK>
+
+    </UO>
+
+</CONFIG>
+

@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='border' name='border_a3c' left='1' top='1' width='650' height='490' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xA3C'/>
+</control>
+<control class='picture' name='picture_2329' left='6' top='5' width='640' height='480' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0x2329'/>
+</control>
+<control class='picture' name='picture_15a0' left='6' top='6' width='96' height='142' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0x15A0'/>
+</control>
+<control class='button' name='button_quit' left='559' top='8' width='36' height='36' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>handler_on_quit</event>
+ <text font='0' hue='0x0' align='left' multiline='0'></text>
+ <gump normal='0x1589' over='0x158A' pressed='0x158B'/> <button type='button' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_15a7' left='524' top='457' width='62' height='23' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>handler_on_credits</event>
+ <text font='0' hue='0x0' align='left' multiline='0'></text>
+ <gump normal='0x15A7' over='0x15A8' pressed='0x15A7'/> <button type='button' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_15a4' left='604' top='444' width='19' height='21' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>handler_on_startgame</event>
+ <text font='0' hue='0x0' align='left' multiline='0'></text>
+ <gump normal='0x15A4' over='0x15A5' pressed='0x15A6'/> <button type='button' checked='0' grouped='0'/>
+</control>
+<control class='label' name='label' left='201' top='311' width='305' height='23' alpha='0' flags='0x0'>
+ <meta selected='1' freezed='0' visible='1'/>
+ <text font='7' hue='0x35' align='center' multiline='0'>- Login to Iris -</text>
+</control>
+<control class='label' name='label' left='199' top='387' width='89' height='19' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='2' hue='0x95' align='left' multiline='0'>Password:</text>
+</control>
+<control class='label' name='label' left='199' top='352' width='54' height='26' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='2' hue='0x95' align='left' multiline='0'>Login:</text>
+</control>
+<control class='border' name='border_bb8' left='299' top='343' width='239' height='35' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xBB8'/>
+</control>
+<control class='edit' name='input_username' left='304' top='353' width='229' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='7' hue='0x1' align='left' multiline='0'>Loginname</text>
+ <password>0</password>
+</control>
+<control class='border' name='border_bb8' left='300' top='379' width='239' height='35' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xBB8'/>
+</control>
+<control class='edit' name='input_password' left='306' top='388' width='227' height='22' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='7' hue='0x1' align='left' multiline='0'>password</text>
+ <password>1</password>
+</control>
+<control class='button' name='button_15a5' left='604' top='416' width='19' height='21' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>handler_on_quickstart</event>
+ <text font='0' hue='0x0' align='left' multiline='0'></text>
+ <gump normal='0x15A5' over='0x15A5' pressed='0x15A6'/> <button type='button' checked='0' grouped='0'/>
+</control>
+<control class='label' name='ultima_iris_version' left='368' top='458' width='34' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='7' hue='0x328' align='left' multiline='0'>0.85</text>
+</control>
+<control class='label' name='iris_version_string' left='214' top='458' width='150' height='22' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='7' hue='0x328' align='right' multiline='0'>Iris Version</text>
+</control>
+</form>

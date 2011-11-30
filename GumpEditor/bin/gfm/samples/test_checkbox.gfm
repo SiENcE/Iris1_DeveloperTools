@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='border' name='border_a28' left='20' top='21' width='361' height='231' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='1' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xA28'/>
+</control>
+<control class='border' name='border_bb8' left='78' top='48' width='249' height='132' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='1' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0xBB8'/>
+</control>
+<control class='label' name='label' left='91' top='53' width='120' height='29' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x489' align='left' multiline='0'>sound option</text>
+</control>
+<control class='button' name='button_okay' left='229' top='198' width='63' height='23' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/> <event type='onclick'>button_okay_onclick</event>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0xF7' over='0xF9' pressed='0xF8'/> <button type='button' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_effect' left='95' top='122' width='114' height='29' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x4EE' align='left' multiline='0'>effect sound</text>
+ <gump normal='0x867' over='0x867' pressed='0x869'/> <button type='checkbox' checked='0' grouped='0'/>
+</control>
+<control class='button' name='button_music' left='101' top='87' width='119' height='20' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <text font='3' hue='0x4EE' align='left' multiline='0'>play music</text>
+ <gump normal='0xD2' over='0xD2' pressed='0xD3'/> <button type='checkbox' checked='1' grouped='0'/>
+</control>
+<control class='button' name='button_default' left='128' top='199' width='63' height='23' alpha='0' flags='0x0'>
+ <meta selected='1' freezed='0' visible='1'/> <event type='onclick'>button_default_onclick</event>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0xF6' over='0xF5' pressed='0xF4'/> <button type='button' checked='0' grouped='0'/>
+</control>
+</form>

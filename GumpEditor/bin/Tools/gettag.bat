@@ -1,0 +1,1 @@
+ctags.exe --c-types=f --language-force=c --sort=yes  -o iris.tag --fields=+n-k script/*.csl

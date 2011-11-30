@@ -1,0 +1,47 @@
+                       BUNCHLÓ 3.0
+
+Cló  Gaelach i leagan amach TrueType le haghaidh  Windows
+is  ea  Bunchló.  Cloíonn sé leis an gcaighdeán a leagadh
+síos don tábla códála Rómhánach Ceilteach Leathnaithe  do
+Windows  (féach an t-alt le Michael Everson  dar  teideal
+‘Táblaí  códála Ceilteacha: caighdeáin nua’  a  foilsíodh
+san  iris ‘Feasta’, Meitheamh 1994)  ach amháin go bhfuil 
+siombal an euro curtha isteach in ionad an '#'.
+
+Tá sé ceadaithe  Bunchló a chóipeáil agus a dháileadh gan 
+srian  ar bith  ach an téacs-chomhad seo  a bheith leis i 
+gcónaí. Is ceadaithe freisin é a úsáid saor in aisce chun 
+ábhar  ar bith  sna teangacha Gaelacha,  nó ábhar  neamh-
+-thráchtála  in  aon  teanga  eile  a  fhoilsiú.   NÍL sé 
+ceadaithe Bunchló a úsáid chun  ábhar tráchtála i dteanga 
+neamh-Ghaelach a fhoilsiú  gan cead a fháil uaimse  roimh
+ré.
+
+Vincent Morley
+Baile Átha Cliath
+30 Bealtaine 1998
+ríomhphost: morley@connect.ie
+
+                           ***
+
+Bunchló  is a Gaelic font in TrueType format for Windows.
+It conforms to the standard for the extended Roman Celtic
+code  table  for  Windows  (see the  article  by  Michael
+Everson  entitled  ‘Táblaí códála Ceilteacha:  caighdeáin
+nua’  in ‘Feasta’, June 1994) except that the euro symbol
+has been substituted for the '#' sign.
+
+Bunchló  may  be  copied   and  distributed  without  any 
+restriction provided  it is accompanied  at  all times by 
+this text file.  It may also  be used free of  charge for 
+the publication of  any material in the  Gaelic languages 
+and of non-commercial material in any other language.  It 
+may  NOT  be  used  for  the  publication  of  commercial 
+material  in  any  non-Gaelic language  without  my prior 
+permission.
+
+Vincent Morley
+Dublin
+30 May 1998
+e-mail: morley@connect.ie
+

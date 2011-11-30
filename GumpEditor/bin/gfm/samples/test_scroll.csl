@@ -1,0 +1,42 @@
+
+slider_1_onchange(var sender, var pos)
+{
+	log("slider1: " + pos);
+}
+
+scrollbar_1_onchange(var sender, var pos)
+{
+	log("scroll1: " + pos);
+}
+
+scrollbar_2_onchange(var sender, var pos)
+{
+	log("scroll2: " + pos);
+}
+
+button_default_onclick(var sender)
+{
+	var slider1, scroll1, scroll2, pos;
+	slider1 = control_getid("slider_1");
+	scroll1 = control_getid("scrollbar_1");
+	scroll2 = control_getid("scrollbar_2");
+	
+	scrollbar_setpos(slider1, 0);
+	scrollbar_setpos(scroll1, 0);
+	scrollbar_setpos(scroll2, 0);
+}
+
+button_okay_onclick(var sender)
+{
+	var slider1, scroll1, scroll2, pos;
+	slider1 = control_getid("slider_1");
+	scroll1 = control_getid("scrollbar_1");
+	scroll2 = control_getid("scrollbar_2");
+
+	pos = scrollbar_getpos(slider1);
+	log("slider1: " + pos);
+	pos = scrollbar_getpos(scroll1);
+	log("scroll1: " + pos);
+	pos = scrollbar_getpos(scroll2);
+	log("scroll2: " + pos);
+}

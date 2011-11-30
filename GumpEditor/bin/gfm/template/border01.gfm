@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='border' name='border_53' left='11' top='12' width='205' height='98' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0x53'/>
+</control>
+</form>

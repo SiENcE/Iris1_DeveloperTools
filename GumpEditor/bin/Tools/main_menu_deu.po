@@ -1,0 +1,16 @@
+#:main_menu.gfm:label
+msgid "- Login to Iris -"
+msgstr "- Logon in Iris -"
+
+#:main_menu.gfm:label
+msgid "Password:"
+msgstr "Passwort:"
+
+#:main_menu.gfm:label
+msgid "Login:"
+msgstr "Logon:"
+
+#:main_menu.gfm:iris_version_string
+msgid "Iris Version"
+msgstr "Iris Versionsnummer"
+

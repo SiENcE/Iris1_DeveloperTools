@@ -1,0 +1,36 @@
+#:test_radio.gfm:button_color0
+msgid "red"
+msgstr ""
+
+#:test_radio.gfm:button_color1
+msgid "green"
+msgstr ""
+
+#:test_radio.gfm:button_color2
+msgid "blue"
+msgstr ""
+
+#:test_radio.gfm:button_race0
+msgid "human"
+msgstr ""
+
+#:test_radio.gfm:button_race1
+msgid "orc"
+msgstr ""
+
+#:test_radio.gfm:button_race2
+msgid "undead"
+msgstr ""
+
+#:test_radio.gfm:label
+msgid "select color"
+msgstr ""
+
+#:test_radio.gfm:label
+msgid "race"
+msgstr ""
+
+#:test_radio.gfm:button_race3
+msgid "night elf"
+msgstr ""
+

@@ -1,0 +1,1 @@
+msgfmt -o iris.mo %1

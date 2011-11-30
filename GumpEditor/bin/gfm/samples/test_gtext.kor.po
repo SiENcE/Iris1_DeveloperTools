@@ -1,0 +1,8 @@
+#:test_gtext.gfm:password
+msgid "Password:"
+msgstr "비밀번호:"
+
+#:test_gtext.gfm:login
+msgid "Login:"
+msgstr "로그인:"
+

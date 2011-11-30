@@ -1,0 +1,9 @@
+#: F:\iris\iris\iris\gfm\samples\test_loadform.csl:3
+msgid "form1_onload()"
+msgstr ""
+
+#: F:\iris\iris\iris\gfm\samples\test_loadform.csl:9
+msgid "gfm/samples/test_loadform2.gfm"
+msgstr ""
+
+

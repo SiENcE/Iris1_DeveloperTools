@@ -1,0 +1,31 @@
+#: F:\iris\iris\iris\gfm\samples\test_checkbox.csl:9
+#: F:\iris\iris\iris\gfm\samples\test_checkbox.csl:23
+msgid "button_effect"
+msgstr ""
+
+#: F:\iris\iris\iris\gfm\samples\test_checkbox.csl:6
+#: F:\iris\iris\iris\gfm\samples\test_checkbox.csl:20
+msgid "button_music"
+msgstr ""
+
+#: F:\iris\iris\iris\gfm\samples\test_checkbox.csl:13
+msgid "effect : "
+msgstr ""
+
+#: F:\iris\iris\iris\gfm\samples\test_checkbox.csl:12
+msgid "music : "
+msgstr ""
+
+
+#:test_checkbox.gfm:label
+msgid "sound option"
+msgstr ""
+
+#:test_checkbox.gfm:button_effect
+msgid "effect sound"
+msgstr ""
+
+#:test_checkbox.gfm:button_music
+msgid "play music"
+msgstr ""
+

@@ -1,0 +1,51 @@
+<!--
+	Granny File Table
+-->
+
+<GRANNY>
+
+  <!-- . : grannyviwer execute directory or full path ex) c:/smd/ -->
+  <SMDPATH>.</SMDPATH>
+	
+	<!-- SMDPATH + TEXTUREPATH or full path ex) c:/smd_tex/ -->
+  <TEXTUREPATH>Models/skel/</TEXTUREPATH>
+
+  <!-- ------------------------------------------------------------------------------------------------------------
+           SMD Import Animations
+  ANIMSET 
+  	ID 0 Male    
+  	ID 1 Female  
+  	ID 2 Animal  
+  	ID 3 Monster 
+  	ID 4 Sea Creatures
+	ID 5 -just for Testing SMD-Loader
+
+-------------------------------------------------------------------------------------------------------------->
+
+  <ANIMSET>
+    <ID>5</ID>
+    <DEFAULTANIM>Models/Skel_Idle.smd</DEFAULTANIM>
+    <ANIMATION>
+      <FILE>Models/Skel_Idle.smd</FILE>
+      <TYPE>stand</TYPE>
+    </ANIMATION>
+    <ANIMATION>
+      <FILE>Models/Skel_Walk.smd</FILE>
+      <TYPE>walkunarmed</TYPE>
+    </ANIMATION>
+  </ANIMSET>
+  
+
+  <!-- ------------------------------------------------------------------------------------------------------------
+      Granny Models
+      -------------------------------------------------------------------------------------------------------------->
+
+  <CHARACTER>
+    <ID>3</ID>
+    <FILE>Models/Skel_Mesh.smd</FILE>
+    <ANIMSET>5</ANIMSET>
+    <LEFT_HAND_BONE>22</LEFT_HAND_BONE>
+    <RIGHT_HAND_BONE>15</RIGHT_HAND_BONE>
+  </CHARACTER>
+
+</GRANNY>

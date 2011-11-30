@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='picture' name='picture_880' left='199' top='133' width='50' height='13' alpha='0' flags='0x0'>
+ <meta selected='0' freezed='0' visible='1'/>
+ <picture type='gump' hue='0x1' gump='0x880'/>
+</control>
+<control class='button' name='button_9a8' left='9' top='7' width='27' height='27' alpha='0' flags='0x0'>
+ <meta selected='1' freezed='0' visible='1'/>
+ <text font='3' hue='0x1' align='left' multiline='0'>button</text>
+ <gump normal='0x9A8' over='0x9AA' pressed='0x9A9'/> <button type='checkbox' checked='0' grouped='0'/>
+</control>
+</form>

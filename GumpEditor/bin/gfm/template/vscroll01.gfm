@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<form width='640' height='480' alpha='0' flags='0' shape=''>
+<version>0.4.0</version>
+ <fade alpha='0' time='0'/>
+ <event onclick='' onclose='' onmouseup='' onmousedown='' onkeypressed=''/>
+<control class='scrollbar' name='scrollbar_ff' left='28' top='19' width='15' height='132' alpha='0' flags='0x0'>
+ <meta selected='1' freezed='0' visible='1'/>
+ <gump>
+  <body track='0xFF' thumb='0xFE'/>  <ltup normal='0xFA' over='0xFA' pressed='0xFB'/>  <rtdn normal='0xFD' over='0xFD' pressed='0xFC'/> </gump>
+ <range min='0' max='100' pos='0'/> <option arrow='1' vert='1'/>
+</control>
+</form>

@@ -1,0 +1,12 @@
+#:test_gtext.gfm:password
+msgid "Password:"
+msgstr ""
+
+#:test_gtext.gfm:login
+msgid "Login:"
+msgstr ""
+
+#:test_gtext.gfm:edit_1
+msgid "Login:"
+msgstr ""
+

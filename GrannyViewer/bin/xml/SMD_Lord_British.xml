@@ -1,0 +1,638 @@
+<!--
+	Granny File Table
+-->
+
+<GRANNY>
+
+<!-- . : grannyviwer execute directory or full path ex) c:/smd/ -->
+  <SMDPATH>.</SMDPATH>
+
+	<!-- SMDPATH + TEXTUREPATH or full path ex) c:/smd_tex/ -->
+  <TEXTUREPATH>Models/lord/</TEXTUREPATH>
+
+  <!-- ------------------------------------------------------------------------------------------------------------
+           SMD Import Animations
+  ANIMSET 
+  	ID 0 Male    
+  	ID 1 Female  
+  	ID 2 Animal  
+  	ID 3 Monster 
+  	ID 4 Sea Creatures
+	ID 5 -just for Testing SMD-Loader
+
+-------------------------------------------------------------------------------------------------------------->
+
+  <ANIMSET>
+    <ID>0</ID>
+    <DEFAULTANIM>Models/Humans/H_Male_Idle_01.grn</DEFAULTANIM>
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Walk_01.grn</FILE>
+      <TYPE>walkunarmed</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_WalkStaff_01.grn</FILE>
+      <TYPE>walkarmed</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Run_01.grn</FILE>
+      <TYPE>rununarmed</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_RunStaff_01.grn</FILE>
+      <TYPE>runarmed</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Idle_01.grn</FILE>
+      <TYPE>stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Fidget_Yawn_Stretch_01.grn</FILE>
+      <TYPE>fidget.3</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_CombatIdle1H_01.grn</FILE>
+      <TYPE>standforonehandedattack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_CombatIdle2H_01.grn</FILE>
+      <TYPE>standfortwohandedattack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackSlash1H_01.grn</FILE>
+      <TYPE>attackonehanded</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackPierce1H_01.grn</FILE>
+      <TYPE>attack.unarmed.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackBash1H_01.grn</FILE>
+      <TYPE>attack.unarmed.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackBash2H_01.grn</FILE>
+      <TYPE>attack.twohanded.down</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackSlash2H_01.grn</FILE>
+      <TYPE>attack.twohanded.wide</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackPierce2H_01.grn</FILE>
+      <TYPE>attack.twohanded.jab</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_CombatAdvance_2H_01.grn</FILE>
+      <TYPE>walkinattackpositiontwohanded</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_CombatAdvance_1H_01.grn</FILE>
+      <TYPE>walkinattackpositiononehanded</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Spell1.grn</FILE>
+      <TYPE>cast.directed</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Spell2.grn</FILE>
+      <TYPE>cast.area/summon</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackBow_01.grn</FILE>
+      <TYPE>attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_AttackCrossbow_01.grn</FILE>
+      <TYPE>attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_GetHit_Fr_Hi_01.grn</FILE>
+      <TYPE>takehit</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Die_Hard_Fwd_01.grn</FILE>
+      <TYPE>die.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Die_Hard_Back_01.grn</FILE>
+      <TYPE>die.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Horse_Walk_01.grn</FILE>
+      <TYPE>horseback.rideslow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Horse_Run_01.grn</FILE>
+      <TYPE>horseback.ridefast</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Horse_Idle_01.grn</FILE>
+      <TYPE>horseback.stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Horse_Attack1H_SlashRight_01.grn</FILE>
+      <TYPE>horseback.attack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Horse_AttackBow_01.grn</FILE>
+      <TYPE>horseback.attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Horse_AttackCrossbow_01.grn</FILE>
+      <TYPE>horseback.attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Horse_Attack2H_SlashRight_01.grn</FILE>
+      <TYPE>horseback.attack.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Punch_Punch_Jab_01.grn</FILE>
+      <TYPE>attack.unarmed.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Bow_Lesser_01.grn</FILE>
+      <TYPE>bow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Salute_Armed1h_01.grn</FILE>
+      <TYPE>salute</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_Ingest_Eat_01.grn</FILE>
+      <TYPE>eat</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_sit_idle_01.grn</FILE>
+      <TYPE>sit</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_llama_idle_01.grn</FILE>
+      <TYPE>llama.stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_llama_walk_01.grn</FILE>
+      <TYPE>llama.rideslow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_llama_run_01.grn</FILE>
+      <TYPE>llama.ridefast</TYPE>
+    </ANIMATION>
+
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_llama_Attack1H_SlashRight_01.grn</FILE>
+      <TYPE>llama.attack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_llama_AttackBow_01.grn</FILE>
+      <TYPE>llama.attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_llama_AttackCrossbow_01.grn</FILE>
+      <TYPE>llama.attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_llama_Attack2H_SlashRight_01.grn</FILE>
+      <TYPE>llama.attack.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_kirin_idle_01.grn</FILE>
+      <TYPE>kirin.stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_kirin_walk_01.grn</FILE>
+      <TYPE>kirin.rideslow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_kirin_run_01.grn</FILE>
+      <TYPE>kirin.ridefast</TYPE>
+    </ANIMATION>
+
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_kirin_Attack1H_SlashRight_01.grn</FILE>
+      <TYPE>kirin.attack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_kirin_AttackBow_01.grn</FILE>
+      <TYPE>kirin.attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_kirin_AttackCrossbow_01.grn</FILE>
+      <TYPE>kirin.attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_kirin_Attack2H_SlashRight_01.grn</FILE>
+      <TYPE>kirin.attack.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ostard_idle_01.grn</FILE>
+      <TYPE>ostard.stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ostard_walk_01.grn</FILE>
+      <TYPE>ostard.rideslow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ostard_run_01.grn</FILE>
+      <TYPE>ostard.ridefast</TYPE>
+    </ANIMATION>
+
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ostard_Attack1H_SlashRight_01.grn</FILE>
+      <TYPE>ostard.attack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ostard_AttackBow_01.grn</FILE>
+      <TYPE>ostard.attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ostard_AttackCrossbow_01.grn</FILE>
+      <TYPE>ostard.attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ostard_Attack2H_SlashRight_01.grn</FILE>
+      <TYPE>ostard.attack.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_giant_beetle_idle_01.grn</FILE>
+      <TYPE>giant_beetle.stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_giant_beetle_walk_01.grn</FILE>
+      <TYPE>giant_beetle.rideslow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_giant_beetle_run_01.grn</FILE>
+      <TYPE>giant_beetle.ridefast</TYPE>
+    </ANIMATION>
+
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_giant_beetle_Attack1H_SlashRight_01.grn</FILE>
+      <TYPE>giant_beetle.attack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_giant_beetle_AttackBow_01.grn</FILE>
+      <TYPE>giant_beetle.attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_giant_beetle_AttackCrossbow_01.grn</FILE>
+      <TYPE>giant_beetle.attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_giant_beetle_Attack2H_SlashRight_01.grn</FILE>
+      <TYPE>giant_beetle.attack.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ridgeback_idle_01.grn</FILE>
+      <TYPE>ridgeback.stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ridgeback_walk_01.grn</FILE>
+      <TYPE>ridgeback.rideslow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ridgeback_run_01.grn</FILE>
+      <TYPE>ridgeback.ridefast</TYPE>
+    </ANIMATION>
+
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ridgeback_Attack1H_SlashRight_01.grn</FILE>
+      <TYPE>ridgeback.attack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ridgeback_AttackBow_01.grn</FILE>
+      <TYPE>ridgeback.attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ridgeback_AttackCrossbow_01.grn</FILE>
+      <TYPE>ridgeback.attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_ridgeback_Attack2H_SlashRight_01.grn</FILE>
+      <TYPE>ridgeback.attack.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_seahorse_idle_01.grn</FILE>
+      <TYPE>seahorse.stand</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_seahorse_walk_01.grn</FILE>
+      <TYPE>seahorse.rideslow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_seahorse_run_01.grn</FILE>
+      <TYPE>seahorse.ridefast</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_seahorse_Attack1H_SlashRight_01.grn</FILE>
+      <TYPE>seahorse.attack</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_seahorse_AttackBow_01.grn</FILE>
+      <TYPE>seahorse.attack.bowandarrow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_seahorse_AttackCrossbow_01.grn</FILE>
+      <TYPE>seahorse.attack.crossbow</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_seahorse_Attack2H_SlashRight_01.grn</FILE>
+      <TYPE>seahorse.attack.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_applaud_01.grn</FILE>
+      <TYPE>applaud</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_argue_01.grn</FILE>
+      <TYPE>argue.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_argue_02.grn</FILE>
+      <TYPE>argue.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_argue_03.grn</FILE>
+      <TYPE>argue.3</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_blow_kiss_01.grn</FILE>
+      <TYPE>kiss</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_bow_formal_01.grn</FILE>
+      <TYPE>bow.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_bow_lesser_01.grn</FILE>
+      <TYPE>bow.3</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_cover_ears_01.grn</FILE>
+      <TYPE>coverears</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_curtsey_formal_01.grn</FILE>
+      <TYPE>courtesy.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_dance_folk_01.grn</FILE>
+      <TYPE>dance.folk.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_dance_folk_02.grn</FILE>
+      <TYPE>dance.folk.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_dance_nerd_01.grn</FILE>
+      <TYPE>dance.3</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_dance_tribal_01.grn</FILE>
+      <TYPE>dance.4</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_fold_arms_01.grn</FILE>
+      <TYPE>foldarms</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_impatient_01.grn</FILE>
+      <TYPE>impatient</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_lecture_01.grn</FILE>
+      <TYPE>lecture</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_nod_yes_01.grn</FILE>
+      <TYPE>nod_yes</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_point_assertive_01.grn</FILE>
+      <TYPE>point</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_salute_armed1h_01.grn</FILE>
+      <TYPE>salute.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_salute_greeting_01.grn</FILE>
+      <TYPE>salute.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_salute_unarmed_01.grn</FILE>
+      <TYPE>salute.3</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_shake_no_01.grn</FILE>
+      <TYPE>shake_no</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_up_yours!_01.grn</FILE>
+      <TYPE>up_yours</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_victory_01.grn</FILE>
+      <TYPE>victory.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_victory_02.grn</FILE>
+      <TYPE>victory.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_wave_1h_01.grn</FILE>
+      <TYPE>wave.1</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_wave_2h_01.grn</FILE>
+      <TYPE>wave.2</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_wave_long_distance_01.grn</FILE>
+      <TYPE>wave.long</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_wave_what!_01.grn</FILE>
+      <TYPE>what</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_sexy_fidget.grn</FILE>
+      <TYPE>fidget.sexy</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_sexy_idle.grn</FILE>
+      <TYPE>stand.sexy</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_sinister_fidget.grn</FILE>
+      <TYPE>fidget.sinister</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_sinister_idle.grn</FILE>
+      <TYPE>stand.sinister</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_drunk_fidget.grn</FILE>
+      <TYPE>fidget.drunk</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_drunk_idle.grn</FILE>
+      <TYPE>stand.drunk</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_athletic_fidget.grn</FILE>
+      <TYPE>fidget.athletic</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_athletic_idle.grn</FILE>
+      <TYPE>stand.athletic</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_aged_fidget.grn</FILE>
+      <TYPE>fidget.aged</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_aged_idle.grn</FILE>
+      <TYPE>stand.aged</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_jammin_fidget.grn</FILE>
+      <TYPE>fidget.jammin</TYPE>
+    </ANIMATION>
+
+    <ANIMATION>
+      <FILE>Models/Humans/H_Male_jammin_idle.grn</FILE>
+      <TYPE>stand.jammin</TYPE>
+    </ANIMATION>
+  </ANIMSET>
+
+
+
+  <!-- ------------------------------------------------------------------------------------------------------------
+      Granny Models
+      -------------------------------------------------------------------------------------------------------------->
+
+  <CHARACTER>
+    <ID>4</ID>
+    <FILE>Models/character_lord_british_lod2.smd</FILE>
+    <ANIMSET>0</ANIMSET>
+    <LEFT_HAND_BONE>22</LEFT_HAND_BONE>
+    <RIGHT_HAND_BONE>15</RIGHT_HAND_BONE>
+  </CHARACTER>
+
+</GRANNY>

@@ -1,0 +1,10 @@
+onload()
+{
+	log("form1_onload()");
+}
+
+button_next_onclick(var sender)
+{
+	gui_clear();
+	gui_loadform(0,0,"gfm/samples/test_loadform2.gfm");
+}
